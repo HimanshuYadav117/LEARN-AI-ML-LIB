@@ -3,7 +3,7 @@ from selenium import webdriver
 import time
 import pandas as pd
 import csv
-from webdriver_manager.chrome import ChromeDriverManager #stackoverflow 
+from webdriver_manager.chrome import ChromeDriverManager  
 
 with open('Output.csv', mode='w') as csv_file:
    fieldnames = ['Link', 'Title', 'Para', 'Author', 'Date']
